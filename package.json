@@ -1,0 +1,33 @@
+{
+  "name": "local-cache-json",
+  "description": "Library for managing local cache with json data",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Peter Simeonov",
+  "keywords": ["cache","db","data","json"],
+  "homepage": "https://github.com/simeonovp/local-cache-json",
+  "bugs": {
+    "url": "https://github.com/simeonovp/local-cache-json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simeonovp/local-cache-json.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "standard": "*"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "lib/*"
+  ],
+  "main": "index.js"
+}
