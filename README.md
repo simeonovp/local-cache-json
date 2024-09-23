@@ -23,6 +23,9 @@ data['newParam'] = 'parValus'
 db.save(true, true)
 ```
 
+the first parameter of the methos save is 'force' (boolean) to overwriting existing storage
+the second parameter of the methos save is either 'true' (for default key sorting) or a locale string (e.g. 'zh' for sorting china words)
+
 TODO: Extend API description
 
 ## Thanks
